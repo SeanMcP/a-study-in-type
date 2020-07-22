@@ -1,0 +1,43 @@
+body {
+    font-size: 100%;
+    line-height: 1.5;
+}
+
+.content {
+    font-size: 1.375rem;
+    line-height: 1.5;
+    max-width: 40rem;
+    width: 100%;
+}
+
+.content > * {
+    margin-top: 0;
+    margin-bottom: 2rem;
+}
+
+.content h1,
+.content h2,
+.content h3,
+.content h4,
+.content h5,
+.content h6 {
+    margin-bottom: 0.5rem;
+    margin-top: 1.5em;
+}
+
+.content blockquote {
+    font-style: italic;
+    border-left: 0.5rem solid currentColor;
+    line-height: 1.25;
+    margin-left: 0;
+    padding: 0.5em;
+    padding-left: 1.5em;
+}
+
+.content blockquote > * {
+    margin: 0;
+}
+
+.content blockquote > * + * {
+    margin-top: 1rem;
+}
